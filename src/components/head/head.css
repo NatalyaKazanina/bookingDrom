@@ -1,0 +1,38 @@
+.head {
+  position: relative;
+}
+
+.logo {
+  background: url("./logo.svg") no-repeat;
+  height: 39px;
+  width: 300px;
+}
+
+.title {
+  font-size: 21px;
+  font-weight: 600;
+  margin: 21px 0 42px;
+}
+
+.loader {
+  height: 36px;
+  width: 36px;
+  color: #db031b;
+  position: absolute;
+  background-color: #fff;
+  top: -1px;
+  left: -1px;
+  display: inline-block;
+  border: 3px solid;
+  border-radius: 50%;
+  border-top-color: transparent;
+  animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0); }
+  100% {
+    transform: rotate(360deg);
+  }
+}

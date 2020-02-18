@@ -1,0 +1,15 @@
+.table {
+  width: 100%;
+}
+
+.item {
+  text-align: center;
+}
+
+.button {
+  background-color: #db031b;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}

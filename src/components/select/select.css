@@ -1,0 +1,12 @@
+.wrapper {
+  width: 100%;
+
+  &:first-child {
+    margin-right: 20px;
+  }
+}
+
+.placeholder {
+  font-weight: 600;
+  color: #8e8e8e;
+}
